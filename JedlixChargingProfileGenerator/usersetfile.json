@@ -1,0 +1,30 @@
+{
+  "startingTime": "2022-06-19T23:00:00Z",
+  "userSettings": {
+    "desiredStateOfCharge": 100,
+    "leavingTime": "2022-06-20T23:00:00Z",
+    "directChargingPercentage": 0,
+    "tariffs": [
+      {
+        "startTime": "00:00",
+        "endTime": "07:14",
+        "energyPrice": 0.22
+      },
+      {
+        "startTime": "07:15",
+        "endTime": "22:59",
+        "energyPrice": 0.25
+      },
+      {
+        "startTime": "23:00",
+        "endTime": "23:59",
+        "energyPrice": 0.22
+      }
+    ]
+  },
+  "carData": {
+    "chargePower": 100,
+    "batteryCapacity": 100,
+    "currentBatteryCapacity": 0
+  }
+}
